@@ -438,11 +438,13 @@ scaled_df.plot(kind='scatter',x='ocean_proximity',y='median_house_value',ax=axs[
 ![output_18_1](https://user-images.githubusercontent.com/95400232/163911764-ca17c92e-daf0-4d6c-865d-846c78f15eca.png)
 
 
-![png](output_18_2.png)
+![output_18_2](https://user-images.githubusercontent.com/95400232/163911827-10f5a776-fca6-4679-a2d4-f9719b6e1b0b.png)
 
 
 
-![png](output_18_3.png)
+![output_18_3](https://user-images.githubusercontent.com/95400232/163911836-b96bb62d-3a6d-4c03-8c0e-96ab7928bfc3.png)
+
+
 
 
 
@@ -519,5 +521,6 @@ plt.plot(x_test_Income,y_predict,c='red',linewidth=2)
 
 
 
-![png](output_26_1.png)
+![output_26_1](https://user-images.githubusercontent.com/95400232/163911856-9948f47e-e4fd-4b0c-b1ba-7b324696cbe0.png)
+
 
