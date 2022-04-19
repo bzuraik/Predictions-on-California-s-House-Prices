@@ -165,7 +165,7 @@ df.columns
 
 
 # 2. Missing D ata
-## Now once the below block is run, we can see that the column total_bedrooms has 207 empty values!
+## Now once the below block is run, we can see that the column total_bedrooms has 207 empty values. We replace the null values with the mean and check for nulls again.!
 
 
 
