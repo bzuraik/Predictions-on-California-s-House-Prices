@@ -433,8 +433,9 @@ scaled_df.plot(kind='scatter',x='ocean_proximity',y='median_house_value',ax=axs[
 
 
 
-![png](output_18_1.png)
 
+
+![output_18_1](https://user-images.githubusercontent.com/95400232/163911764-ca17c92e-daf0-4d6c-865d-846c78f15eca.png)
 
 
 ![png](output_18_2.png)
