@@ -34,9 +34,9 @@ matplotlib_axes_logger.setLevel('ERROR')
 ```
 
 
-```python
+
 # 1. Load Data
-```
+
 
 
 ```python
