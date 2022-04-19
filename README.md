@@ -45,9 +45,9 @@ df=pd.read_excel(xlsx_path)
 ```
 
 
-```python
-# Print first few rows of this data.
-```
+
+## Print first few rows of this data.
+
 
 
 ```python
@@ -58,19 +58,7 @@ df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -175,10 +163,10 @@ df.columns
 
 
 
-```python
+
 # 2. Missing D ata
-# Now once the below block is run, we can see that the column total_bedrooms has 207 empty values!
-```
+## Now once the below block is run, we can see that the column total_bedrooms has 207 empty values!
+
 
 
 ```python
@@ -228,11 +216,10 @@ df.isnull().sum()
 
 
 
-```python
-# 3. Encode categorical data :
 
-# Convert categorical column in the dataset to numerical data.
-```
+# 3. Encode categorical data :
+## Convert categorical column in the dataset to numerical data.
+
 
 
 ```python
@@ -241,18 +228,17 @@ df['ocean_proximity']=le.fit_transform(df['ocean_proximity'])
 ```
 
 
-```python
-# Standardize data :
 
-# Standardize training and test datasets.
-```
+# Standardize data :
+## Standardize training and test datasets.
+
 
 
 ```python
 names = df.columns
 # Create the Scaler object
 scaler = StandardScaler()
-# Fit your data on the scaler object
+# Fit data on the scaler object
 scaled_df = scaler.fit_transform(df)
 scaled_df = pd.DataFrame(scaled_df, columns=names)
 scaled_df.head()
@@ -364,9 +350,9 @@ scaled_df.head()
 
 
 
-```python
+
 # extract X and Y
-```
+
 
 
 ```python
@@ -397,11 +383,11 @@ print(Y.shape)
 
 
 
-```python
+
 # 4. Split the dataset : 
 
-# Split the data into 80% training dataset and 20% test dataset.
-```
+## Split the data into 80% training dataset and 20% test dataset.
+
 
 
 ```python
@@ -459,10 +445,9 @@ scaled_df.plot(kind='scatter',x='ocean_proximity',y='median_house_value',ax=axs[
 
 
 
-```python
-# Perform Linear Regression on training data.
 
-```
+# Performing Linear Regression on training data.
+
 
 
 ```python
@@ -479,9 +464,9 @@ print((r2_score(y_test,y_predict)))
 
 
 
-```python
-# Extract just the median_income column from the independent variables (from X_train and X_test).
-```
+
+## Extracting just the median_income column from the independent variables (from X_train and X_test).
+
 
 
 ```python
