@@ -351,7 +351,7 @@ scaled_df.head()
 
 
 
-# extract X and Y
+# Extract X and Y
 
 
 
