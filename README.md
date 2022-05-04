@@ -448,6 +448,10 @@ scaled_df.plot(kind='scatter',x='ocean_proximity',y='median_house_value',ax=axs[
 
 # Performing Linear Regression on training data.
 
+## 1. Perform Linear Regression on training data.
+## 2. Predict output for test dataset using the fitted model.
+## 3. Print root mean squared error (RMSE) from Linear Regression.
+
 
 
 ```python
@@ -465,8 +469,12 @@ print((r2_score(y_test,y_predict)))
 
 
 
-## Extracting just the median_income column from the independent variables (from X_train and X_test).
 
+# Perform Linear Regression with one independent variable
+## 1. Extracting just the median_income column from the independent variables (from X_train and X_test).
+## 2. Perform Linear Regression to predict housing values based on median_income.
+## 3. Predict output for test dataset using the fitted model.
+## 4. Plot the fitted model for training data as well as for test data to check if the fitted model satisfies the test data.
 
 
 ```python
@@ -519,4 +527,5 @@ plt.plot(x_test_Income,y_predict,c='red',linewidth=2)
 
 ![output_26_1](https://user-images.githubusercontent.com/95400232/163911856-9948f47e-e4fd-4b0c-b1ba-7b324696cbe0.png)
 
-
+# Insight
+## Looking at the above values we can say that coefficient: a unit increase in median_income increases the median_house_value by 0.692 unit
