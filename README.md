@@ -386,7 +386,7 @@ print(Y.shape)
 
 # 4. Split the dataset : 
 
-## Split the data into 80% training dataset and 20% test dataset.
+ Split the data into 80% training dataset and 20% test dataset.
 
 
 
@@ -448,9 +448,9 @@ scaled_df.plot(kind='scatter',x='ocean_proximity',y='median_house_value',ax=axs[
 
 # Performing Linear Regression on training data.
 
-## 1. Perform Linear Regression on training data.
-## 2. Predict output for test dataset using the fitted model.
-## 3. Print root mean squared error (RMSE) from Linear Regression.
+ 1. Perform Linear Regression on training data.
+ 2. Predict output for test dataset using the fitted model.
+ 3. Print root mean squared error (RMSE) from Linear Regression.
 
 
 
@@ -471,10 +471,10 @@ print((r2_score(y_test,y_predict)))
 
 
 # Perform Linear Regression with one independent variable
-## 1. Extracting just the median_income column from the independent variables (from X_train and X_test).
-## 2. Perform Linear Regression to predict housing values based on median_income.
-## 3. Predict output for test dataset using the fitted model.
-## 4. Plot the fitted model for training data as well as for test data to check if the fitted model satisfies the test data.
+ 1. Extracting just the median_income column from the independent variables (from X_train and X_test).
+ 2. Perform Linear Regression to predict housing values based on median_income.
+ 3. Predict output for test dataset using the fitted model.
+ 4. Plot the fitted model for training data as well as for test data to check if the fitted model satisfies the test data.
 
 
 ```python
