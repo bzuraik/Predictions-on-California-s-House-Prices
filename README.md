@@ -528,4 +528,4 @@ plt.plot(x_test_Income,y_predict,c='red',linewidth=2)
 ![output_26_1](https://user-images.githubusercontent.com/95400232/163911856-9948f47e-e4fd-4b0c-b1ba-7b324696cbe0.png)
 
 # Insight
-## Looking at the above values we can say that coefficient: a unit increase in median_income increases the median_house_value by 0.692 unit
+Looking at the above values we can say that coefficient: a unit increase in median_income increases the median_house_value by 0.692 unit
